@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: ws
+    database: tsdb
+    schema: public
+    tables:
+      - name: users
+      - name: orders
+      - name: payments
